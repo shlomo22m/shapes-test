@@ -1,5 +1,7 @@
 import math
-from detect import Detect
+#from detect import Detect
+from .detect import Detect
+
 
 
 class Calc:
@@ -27,7 +29,7 @@ class Calc:
         if not self.calc.is_triangle():
             raise Exception("Not a triangle")
         s = self.triangle_perimeter()/2
-        return round(math.sqrt(s * (s - self.calc.sides_list[0]) * (s - self.calc.sides_list[1]) * (s - self.calc.sides_list[2])),3)
+        return int(round(math.sqrt(s * (s - self.calc.sides_list[0]) * (s - self.calc.sides_list[1]) * (s - self.calc.sides_list[2])),3))
 
 
     def square_area(self):

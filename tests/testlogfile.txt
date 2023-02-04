@@ -1,9 +1,68 @@
-Exception fail 04/02/2023 21:16:01
-Exception fail 04/02/2023 21:16:21
-Exception pass 04/02/2023 21:18:15
-Exception pass 04/02/2023 21:18:30
-Exception fail 04/02/2023 21:18:52
-Exception fail 04/02/2023 21:19:12
-Exception pass 04/02/2023 21:19:28
-is rectangle test pass expected True result:True 04/02/2023 21:36:47
-Exception pass 04/02/2023 21:41:38
+triangle parimiter test pass expected 12 actual 12  04/02/2023 23:37:47
+triangle parimiter test pass expected 11 actual 12  04/02/2023 23:38:03
+triangle parimiter test fail expected 11 actual 12  04/02/2023 23:38:38
+triangle area test fail expected 6 actual 6.0  04/02/2023 23:38:46
+triangle area test fail expected 6 actual 6  04/02/2023 23:39:42
+triangle parimiter test fail expected 11 actual 12  04/02/2023 23:40:12
+triangle parimiter test fail expected 12 actual 12  04/02/2023 23:40:29
+triangle area test fail expected 6 actual 6  04/02/2023 23:41:17
+triangle area test fail expected 6 actual 6 04/02/2023 23:42:40
+no 04/02/2023 23:43:59
+triangle parimiter test fail expected 12 actual 12  04/02/2023 23:44:53
+triangle parimiter test fail expected 12 actual 12  04/02/2023 23:45:09
+triangle parimiter test pass expected 12 actual 12 04/02/2023 23:45:29
+triangle parimiter test fail expected 12 actual 12  04/02/2023 23:45:53
+no 04/02/2023 23:47:16
+no 04/02/2023 23:48:14
+triangle parimiter test fail expected 13 actual 13  04/02/2023 23:48:43
+no 04/02/2023 23:49:15
+no 04/02/2023 23:49:43
+no 04/02/2023 23:52:10
+triangle area test pass expected 5 actual 5 04/02/2023 23:53:02
+triangle area test pass expected 5 actual 5 04/02/2023 23:54:08
+triangle parimiter test fail expected 5 actual 13  04/02/2023 23:54:32
+triangle parimiter test pass expected 13 actual 13 04/02/2023 23:54:50
+triangle parimiter test pass expected 6 actual 6 05/02/2023 00:00:12
+triangle parimiter test fail expected 5 actual 6  05/02/2023 00:00:27
+triangle parimiter test pass expected 10 actual 10 05/02/2023 00:02:25
+triangle parimiter test fail expected 11 actual 10  05/02/2023 00:02:41
+triangle area test pass expected 5 actual 5 05/02/2023 00:06:01
+Exception pass 05/02/2023 00:06:01
+triangle area test pass expected 5 actual 5 05/02/2023 00:06:22
+Exception pass 05/02/2023 00:06:22
+triangle area test pass expected 5 actual 5 05/02/2023 00:07:36
+Exception pass 05/02/2023 00:07:36
+triangle area test pass expected 5 actual 5 05/02/2023 00:08:08
+Exception fail 05/02/2023 00:08:08
+triangle area test pass expected 5 actual 5 05/02/2023 00:08:35
+Exception fail 05/02/2023 00:08:35
+triangle area test pass expected 5 actual 5 05/02/2023 00:08:58
+Exception fail 05/02/2023 00:08:58
+triangle area test pass expected 5 actual 5 05/02/2023 00:09:15
+Exception fail 05/02/2023 00:09:15
+Exception fail 05/02/2023 00:09:32
+Exception pass 05/02/2023 00:09:57
+triangle area test pass expected 5 actual 5 05/02/2023 00:10:04
+Exception fail 05/02/2023 00:10:04
+y 05/02/2023 00:13:35
+y 05/02/2023 00:13:50
+y 05/02/2023 00:14:12
+y 05/02/2023 00:16:43
+y 05/02/2023 00:17:02
+n 05/02/2023 00:17:43
+n 05/02/2023 00:17:56
+n 05/02/2023 00:18:17
+y 05/02/2023 00:19:18
+y 05/02/2023 00:19:31
+n 05/02/2023 00:20:36
+n 05/02/2023 00:20:46
+y 05/02/2023 00:21:19
+y 05/02/2023 00:21:31
+Exception pass 05/02/2023 00:24:03
+y 05/02/2023 00:25:33
+n 05/02/2023 00:25:49
+is triagle test fail expected True result:False 05/02/2023 01:19:10
+shape exeption Exception pass 05/02/2023 01:20:17
+triangle area test pass expected 5 actual 5 05/02/2023 01:27:11
+triangle area test pass expected 5 actual 5 05/02/2023 01:29:47
+triangle area test pass expected 5 actual 5 05/02/2023 01:32:52

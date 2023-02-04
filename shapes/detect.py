@@ -1,8 +1,14 @@
-class Detect:
+class Detect():
 
     def __init__(self,sides_list):
-        self.sides_list=sides_list
-        self.shapes_list()
+        if type(sides_list)==str:
+            self.sides_list=sides_list
+            self.shapes_list()
+        else:
+            self.sides_list=sides_list
+
+
+
 
     def shapes_list(self):
         try:

@@ -1,5 +1,5 @@
-from detect import Detect
-from calc import Calc
+from .detect import Detect
+from .calc import Calc
 
 
 class Complex:
@@ -7,6 +7,7 @@ class Complex:
 
     def __init__(self,shapes_list):
         self.complex=Calc(shapes_list)
+
 
     def shapes_calc(self,riase_on_error):
         triangles=[]

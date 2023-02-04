@@ -1,17 +1,23 @@
+from shapes.detect import Detect
+from shapes.calc import Calc
 import pytest
 from dotenv import load_dotenv
-from shapes.calc import Calc
-from shapes.detect import Detect
 from service import Service
 import os
 
 load_dotenv()
 log = Service()
+
 rectangle=os.getenv('RECTANGLE')
+rectangle_area=int(os.getenv('RECTANGLE_AREA'))
+rectangle_parimiter=int(os.getenv('RECTANGLE_PARIMITER'))
+
 square=os.getenv('SQURE')
 
+
 triangle=os.getenv('TRIANGLE')
-triangle_area=os.getenv('TRIANGLE_AREA')
+triangle_area=int(os.getenv('TRIANGLE_AREA'))
+triangle_parimiter=int(os.getenv('TRIANGLE_PARIMITER'))
 
 shape_test=os.getenv('SHAPE_EXCEPTION')
 
@@ -30,9 +36,50 @@ test_fail=os.getenv('TEST_FAIL')
 #    return Calc(square)
 
 @pytest.fixture()
-def calc_triangle():
+def calc():
     return Calc(triangle)
 
-def test_triangle_area(calc_triangle):
+@pytest.fixture()
+def calc_rectangle():
+    return Calc(rectangle)
 
-        assert calc_triangle.triangle_area()==6
+def test_triangle_area(calc):
+   try:
+       assert calc.triangle_area()==triangle_area
+       log.testwriteToFile(f'triangle area {test_pass} expected {triangle_area} actual {calc.triangle_area()}')
+   except:
+       log.testwriteToFile(f'triangle area {test_fail} expected {triangle_area} actual {calc.triangle_area()}')
+
+
+def test_triangle_perimeter(calc):
+    try:
+        assert calc.triangle_perimeter() ==triangle_parimiter
+        log.testwriteToFile(f'triangle parimiter {test_pass} expected {triangle_parimiter} actual {calc.triangle_perimeter()}')
+    except:
+        log.testwriteToFile(f'triangle parimiter {test_fail} expected {triangle_parimiter} actual {calc.triangle_perimeter()} ')
+
+def test_rectangle_area(calc_rectangle):
+    try:
+        assert calc_rectangle.rectangle_area() ==rectangle_area
+        log.testwriteToFile(f'triangle parimiter {test_pass} expected {rectangle_area} actual {calc_rectangle.rectangle_area()}')
+    except:
+        log.testwriteToFile(f'triangle parimiter {test_fail} expected {rectangle_area} actual {calc_rectangle.rectangle_area()} ')
+
+
+def test_rectangle_area(calc_rectangle):
+    try:
+        assert calc_rectangle.rectangle_perimeter() ==rectangle_parimiter
+        log.testwriteToFile(f'triangle parimiter {test_pass} expected {rectangle_parimiter} actual {calc_rectangle.rectangle_perimeter()}')
+    except:
+        log.testwriteToFile(f'triangle parimiter {test_fail} expected {rectangle_parimiter} actual {calc_rectangle.rectangle_perimeter()} ')
+
+def test_exception(calc):
+    try:
+        with pytest.raises(ValueError):
+           Calc(shape_test)
+        log.testwriteToFile(f'shape exeption  {exception_fail}')
+    except:
+         log.testwriteToFile(f'shape exeption {exception_pass}')
+
+
+
