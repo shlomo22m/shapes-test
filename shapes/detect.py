@@ -2,6 +2,13 @@ class Detect:
 
     def __init__(self,sides_list):
         self.sides_list=sides_list
+        self.shapes_list()
+
+    def shapes_list(self):
+        try:
+            self.sides_list = list(map(int, self.sides_list.split(',')))
+        except ValueError:
+            raise ValueError
 
 
     def is_rectangle(self):

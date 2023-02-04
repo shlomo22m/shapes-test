@@ -33,10 +33,4 @@ class Complex:
                 improper_shapes.append(length)
             elif riase_on_error==True:
                 raise Exception("Provided shape is not a proper square,triangle or rectangle")
-
-           # else:
-               #print('false')
-        #self.result["triangles"] = triangles
-        #self.result["rectangle"]=rectangles
-        #self.result["squers"]=squers
         return self.result,improper_shapes

@@ -1,0 +1,9 @@
+Exception fail 04/02/2023 21:16:01
+Exception fail 04/02/2023 21:16:21
+Exception pass 04/02/2023 21:18:15
+Exception pass 04/02/2023 21:18:30
+Exception fail 04/02/2023 21:18:52
+Exception fail 04/02/2023 21:19:12
+Exception pass 04/02/2023 21:19:28
+is rectangle test pass expected True result:True 04/02/2023 21:36:47
+Exception pass 04/02/2023 21:41:38

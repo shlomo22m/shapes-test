@@ -1,5 +1,4 @@
 import math
-
 from detect import Detect
 
 
