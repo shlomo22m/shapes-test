@@ -11,6 +11,10 @@ class Detect():
 
 
     def shapes_list(self):
+        """shlomo mhadker
+            Date:4.2.23
+            this functiom convert a string list to int list
+        """
         try:
             self.sides_list = list(map(int, self.sides_list.split(',')))
         except ValueError:

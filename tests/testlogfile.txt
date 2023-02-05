@@ -66,3 +66,94 @@ shape exeption Exception pass 05/02/2023 01:20:17
 triangle area test pass expected 5 actual 5 05/02/2023 01:27:11
 triangle area test pass expected 5 actual 5 05/02/2023 01:29:47
 triangle area test pass expected 5 actual 5 05/02/2023 01:32:52
+n 05/02/2023 06:51:10
+n 05/02/2023 06:51:47
+n 05/02/2023 06:52:56
+n 05/02/2023 07:00:32
+dict 05/02/2023 07:02:11
+{'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} 05/02/2023 07:02:30
+n 05/02/2023 07:03:51
+n 05/02/2023 07:12:41
+n 05/02/2023 07:14:18
+y 05/02/2023 07:14:53
+y 05/02/2023 07:16:59
+n 05/02/2023 08:35:51
+n 05/02/2023 08:41:55
+n 05/02/2023 08:43:50
+n 05/02/2023 08:44:14
+n 05/02/2023 08:44:40
+n 05/02/2023 08:45:10
+n 05/02/2023 08:45:24
+n 05/02/2023 08:45:53
+n 05/02/2023 08:46:26
+n 05/02/2023 08:47:51
+n 05/02/2023 08:48:21
+n 05/02/2023 08:49:01
+shape calc {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} 05/02/2023 08:50:10
+n 05/02/2023 08:50:32
+shape calc {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} 05/02/2023 08:50:42
+shape calc test pass expected {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} actual {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]}  05/02/2023 08:52:19
+shape calc test pass expected {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} actual {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} improper shapes []  05/02/2023 08:53:42
+shape calc test pass expected {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} actual {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} improper shapes []  05/02/2023 08:54:16
+shape calc test pass expected {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} actual {'squers': [{'sides': [2, 2, 2, 2], 'area': 4, 'perimeter': 8}], 'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}]} improper shapes []  05/02/2023 08:58:46
+n 05/02/2023 08:59:07
+n 05/02/2023 08:59:35
+n 05/02/2023 09:00:02
+n 05/02/2023 09:01:24
+n 05/02/2023 09:02:45
+n 05/02/2023 09:03:06
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:04:03
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:04:23
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:10:02
+shape dict calc Exception fail 05/02/2023 09:10:02
+shape dict calc Exception pass 05/02/2023 09:12:35
+triangle parimiter test fail expected 11 actual 10  05/02/2023 09:13:07
+triangle parimiter test fail expected 11 actual 10  05/02/2023 09:13:18
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:13:54
+shape calc test fail expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:14:15
+shape calc test fail expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:15:33
+shape calc test fail expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 3], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:16:08
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:17:19
+shape calc test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:17:42
+shape calc:
+ test pass expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:18:06
+shape calc: test pass
+ expected {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:18:22
+shape calc: test pass expected
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 09:18:40
+shape dict calc riase on error is True Exception fail 05/02/2023 09:19:58
+Exception fail 05/02/2023 09:20:43
+is rectangle test pass expected True result:True 05/02/2023 09:20:59
+Exception fail 05/02/2023 09:27:24
+triangle parimiter test fail expected 11 actual 10  05/02/2023 09:27:39
+triangle parimiter test pass expected 13 actual 13 05/02/2023 09:27:43
+shape exeption Exception pass 05/02/2023 09:27:47
+shape exeption Exception fail 05/02/2023 09:30:53
+shape exeption  Exception pass 05/02/2023 09:31:05
+is rectangle test pass expected True result:True 05/02/2023 11:04:50
+shape calc: test pass expected
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 11:05:16
+shape dict calc riase on error is True Exception fail 05/02/2023 11:05:40
+shape dict calc riase on error is True  Exception pass 05/02/2023 11:06:06
+shape calc: test pass expected
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 11:06:59
+shape calc: test pass expected
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]} actual
+ {'triangles': [{'sides': [3, 4, 5], 'area': 6, 'perimeter': 12}, {'sides': [5, 6, 6], 'area': 13, 'perimeter': 17}], 'rectangle': [{'sides': [2, 2, 3, 3], 'area': 6, 'perimeter': 10}]}
+ improper shapes expected[[1, 2, 2, 2], [2, 3, 8]]actual [[1, 2, 2, 2], [2, 3, 8]]  05/02/2023 13:06:44
+shape dict calc when riase on error is True  Exception pass 05/02/2023 13:07:21

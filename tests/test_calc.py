@@ -77,9 +77,9 @@ def test_exception(calc):
     try:
         with pytest.raises(ValueError):
            Calc(shape_test)
-        log.testwriteToFile(f'shape exeption  {exception_fail}')
+        log.testwriteToFile(f'shape exeption  {exception_pass}')
     except:
-         log.testwriteToFile(f'shape exeption {exception_pass}')
+         log.testwriteToFile(f'shape exeption {exception_fail}')
 
 
 

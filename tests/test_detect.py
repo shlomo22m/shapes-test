@@ -25,11 +25,13 @@ def detect():
 def detect_squre():
    return Detect(square)
 
+
 @pytest.fixture()
 def detect_triangle():
    return Detect(triangle)
 
 
+@pytest.mark.test_shapes
 def test_shapes(detect):
     try:
         with pytest.raises(ValueError):
@@ -38,6 +40,7 @@ def test_shapes(detect):
     except:
         log.testwriteToFile(exception_fail)
 
+@pytest.mark.test_is_rectangle
 def test_is_rectangle(detect):
     try:
         assert detect.is_rectangle()==True
@@ -48,6 +51,7 @@ def test_is_rectangle(detect):
 
 
 
+@pytest.mark.test_is_square
 def test_is_square(detect_squre):
     try:
         assert detect_squre.is_square() == True
@@ -56,6 +60,7 @@ def test_is_square(detect_squre):
         log.testwriteToFile(f'is square {test_fail} expected True result:False')
 
 
+@pytest.mark.test_is_triangle
 def test_is_triangle(detect_triangle):
     try:
         assert detect_triangle.is_triangle() == True
